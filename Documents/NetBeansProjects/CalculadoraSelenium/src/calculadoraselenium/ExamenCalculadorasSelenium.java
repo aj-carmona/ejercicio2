@@ -24,7 +24,7 @@ public class ExamenCalculadorasSelenium {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-
+//Antonio Jesus Carmona Ontanilla
         System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
         WebDriver navegador = new ChromeDriver();
         navegador.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
@@ -72,7 +72,7 @@ public class ExamenCalculadorasSelenium {
 
         double base = 12.5678;
         double altura = 20.5555;
-        //Antonio Jesus Carmona Ontanilla
+        
 
         inputCalculadoraWeb.sendKeys(String.valueOf(base));
         botonMultiplicaWeb.click();
